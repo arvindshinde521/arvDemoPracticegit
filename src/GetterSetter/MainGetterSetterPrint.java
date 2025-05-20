@@ -4,6 +4,7 @@ public class MainGetterSetterPrint {
 
 	public static void main(String[] args) {
 		gttereSetterClass obj = new gttereSetterClass();
+		
 		obj.setCarmodel("KIA");
 		System.out.println("A car model is :" +obj.getCarmodel());
 		
