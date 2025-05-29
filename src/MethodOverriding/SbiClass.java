@@ -6,6 +6,10 @@ public class SbiClass extends RbiClass{
 		System.out.println("SBI charges 9%");
 		return 9;
 	}
+	
+	public void personalLoan() {
+		System.out.println("SBI offers personal loan on 7% interest");
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -18,12 +22,16 @@ public class SbiClass extends RbiClass{
 		RbiClass rbi; // rbi - created reference
 		rbi= new SbiClass(); // created object by using new keyword
 		rbi.intrestRate(); // now when i call the method it prints method from sbi class specifically.
-     
+        rbi.personalLoan();
+		
 		rbi = new AxisBank();
 	    rbi.intrestRate(); //This prints the % from axis bank class
 	    
 	    rbi= new HDFCbank();
 	    rbi.intrestRate(); //This prints the % from HDFC bank class
+	    
+	    
+	 
 		
 	}
 
