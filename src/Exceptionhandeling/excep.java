@@ -16,7 +16,6 @@ public class excep{
 		/*Now i am going to use try and catch here
 		 */
 		
-		
 		try{
 			int a = 10/0;
 		}
@@ -25,7 +24,5 @@ public class excep{
 		}
 		
 		System.out.println("Durva");
-
-		
 	}
 }
