@@ -12,6 +12,17 @@ public class Thread1 extends Thread{
 	
 	public void run() { //Thread in running state.
 		System.out.println("executing a code");
+		
+		for(int i=0; i<=3; i++) {
+			try {
+				Thread.sleep(2000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			System.out.println(i);
+		}
+		
 	}
 
 	public static void main(String[] args) {
@@ -26,10 +37,14 @@ public class Thread1 extends Thread{
 		 */
 		
 		t1.start(); //Ready state.
+
 		
 		//t1.run(); you can call it but it will work as normal method not a thread.
 		
 		Thread t2 = new Thread();
+		t2.start();
+		t1.run();
+
 
 	}
 
