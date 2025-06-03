@@ -23,6 +23,12 @@ public class child1 extends parent1{
 
 	}
 
+	@Override
+	public void method2() {
+		// TODO Auto-generated method stub
+		
+	}
+
 
 
 
