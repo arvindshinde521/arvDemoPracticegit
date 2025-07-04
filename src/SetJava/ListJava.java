@@ -19,6 +19,7 @@ public class ListJava {
 
 		System.out.println(listExample);  // Output: [A, B, A]
 		System.out.println(listExample.get(1));  // Output: B
+	
 
 
 	}
